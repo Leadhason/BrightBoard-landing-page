@@ -60,11 +60,11 @@ export default function Testimonials() {
                   >
                     <div className="bg-white p-8 rounded-2xl shadow-md mx-4 border bg-gray-100">
                       <div className="relative mb-8 px-4">
-                        <span className="absolute -top-4 left-0 text-6xl text-pink-500">"</span>
+                        <span className="absolute -top-4 left-0 text-6xl text-pink-500">&quot;</span>
                         <blockquote className="text-gray-600 text-center pt-4 px-2">
                           {testimonial.content}
                         </blockquote>
-                        <span className="absolute -bottom-4 right-0 text-6xl text-pink-500 leading-none">"</span>
+                        <span className="absolute -bottom-4 right-0 text-6xl text-pink-500 leading-none">&quot;</span>
                       </div>
 
                       <div className="flex items-center gap-4 justify-center">

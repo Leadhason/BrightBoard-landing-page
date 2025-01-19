@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react'
 import { motion } from 'framer-motion'
-import { Book, Users, Calendar, BarChart, MessageSquare, Shield } from 'lucide-react'
+import { Book, BarChart, MessageSquare, Shield } from 'lucide-react'
 import { Button } from './ui/button'
 
 const features = [
