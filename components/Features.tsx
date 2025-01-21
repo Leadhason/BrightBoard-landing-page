@@ -36,7 +36,7 @@ export default function Features() {
   const [activeFeature, setActiveFeature] = useState(0)
 
   return (
-    <section className="py-16 px-10 bg-gray-50">
+    <section className="py-16 px-10">
       <div className="text-center container mx-auto px-4">
       <h4 className="text-pink-500 font-medium mb-4 text-center">Features</h4>
         <h2 className="text-3xl font-semibold text-center mb-6">
@@ -52,8 +52,8 @@ export default function Features() {
                 key={index}
                 className={`p-6 rounded-lg cursor-pointer transition-all ${
                   activeFeature === index 
-                    ? 'bg-white shadow-lg border border-gray-100' 
-                    : 'hover:bg-white hover:shadow-md'
+                    ? 'bg-gray-50 shadow-lg border border-gray-100' 
+                    : 'hover:bg-gray-50 hover:shadow-md'
                 }`}
                 onClick={() => setActiveFeature(index)}
                 whileHover={{ scale: 1.02 }}

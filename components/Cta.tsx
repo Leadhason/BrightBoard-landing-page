@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button"
 
 export default function Cta() {
   return (
-    <section className="relative py-8 mt-20 bg-white">
+    <section className="relative py-8 bg-white">
       <div className="">
         <div className="absolute inset-0 bg-gradient-to-b from-primary/5 via-transparent to-pink-100/20" />
         
@@ -18,10 +18,10 @@ export default function Cta() {
                 Ready to streamline your workflow?
               </h2>
               <p className="text-gray-600 text-base md:text-lg max-w-2xl lg:max-w-none mx-auto mb-6">
-                Join thousands of teams who use YowManage to stay organized, collaborate effectively, and deliver projects on time.
+                Join thousands of teams who use BrightBoard to stay organized, collaborate effectively, and deliver projects on time.
               </p>
               <div className="flex flex-col sm:flex-row gap-3 justify-center lg:justify-start items-center">
-               <Button className="h-[45px] w-30 -mt-3">
+               <Button className="h-[45px] w-30 -mt-2.5">
                 Get Started
                </Button>
               </div>

@@ -3,7 +3,7 @@ import Image from "next/image"
 
 export default function Navbar() {
   return (
-    <nav className="container mx-auto px-4 flex justify-between items-center py-3">
+    <nav className="container mx-auto px-4 flex justify-between items-center py-3 font-Helvetica">
       <div className="flex items-center gap-2">
         <Image 
           src="/logo.svg"
@@ -15,11 +15,11 @@ export default function Navbar() {
       </div>
       
       <div className="hidden md:flex items-center gap-8">
-        <a href="#" className="hover:text-primary">Home</a>
-        <a href="#" className="hover:text-primary">Features</a>
-        <a href="#" className="hover:text-primary">Pricing</a>
-        <a href="#" className="hover:text-primary">Blog</a>
-        <a href="#" className="hover:text-primary">Contact</a>
+        <a href="#" className="text-md font-normal">Home</a>
+        <a href="#" className="">Features</a>
+        <a href="#" className="">Pricing</a>
+        <a href="#" className="">Blog</a>
+        <a href="#" className="">Contact</a>
       </div>
 
       <div className="flex items-center gap-4">

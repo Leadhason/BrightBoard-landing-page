@@ -51,7 +51,7 @@ export default function Pricing() {
 
   return (
     <section className="py-10">
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-4 mb-20">
         <div className="text-center max-w-2xl mx-auto mb-8">
           <h4 className="text-pink-500 font-medium mb-4">Pricing</h4>
           <h2 className="text-3xl font-bold mb-6">Flexible plans for every team</h2>
